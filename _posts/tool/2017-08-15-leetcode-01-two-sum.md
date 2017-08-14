@@ -18,9 +18,11 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 
 return [0, 1].
-## 思路
-根据数组的内容新建一个哈希表，然后遍历数组查询哈希表中是否存在值为target-nums[i]
 
+## 思路
+根据数组的内容新建一个哈希表，然后遍历数组查询哈希表中是否存在值为target-nums[i]的元素
+
+## 代码
 ```
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
